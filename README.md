@@ -21,16 +21,16 @@ vấn qua Obsei MCP.
 
 ## 2. Công nghệ sử dụng
 
-  Thành phần                  Công nghệ
-  --------------------------- ----------------------------------------
-  Nền tảng phân tích          Obsei 1.1.1
-  Ngôn ngữ chạy               Python 3.11.9
-  Dữ liệu đầu vào             CSV
-  Cơ sở dữ liệu               DuckDB
-  Dữ liệu xuất                Parquet
-  Phân loại                   Obsei `classify` enricher, model local
-  Khám phá chủ đề             Obsei Themes
-  Tích hợp trợ lý lập trình   Obsei MCP Plugin / Codex
+| Thành phần | Công nghệ |
+|---|---|
+| Nền tảng phân tích | Obsei 1.1.1 |
+| Ngôn ngữ chạy | Python 3.11.9 |
+| Dữ liệu đầu vào | CSV |
+| Cơ sở dữ liệu | DuckDB |
+| Dữ liệu xuất | Parquet |
+| Phân loại | Obsei `classify` enricher, model local |
+| Khám phá chủ đề | Obsei Themes |
+| Tích hợp trợ lý lập trình | Obsei MCP Plugin / Codex |
 
 ## 3. Cấu trúc repository
 
@@ -60,22 +60,12 @@ lên GitHub:
 
 ## 4. Dataset
 
-  --------------------------------------------------------------------------------------------------------
-  File                                                               Số dòng dữ liệu Mục đích
-  ----------------------------------------------------- ---------------------------- ---------------------
-  `obsei_pizza_demo_50.csv`                                                       50 Dataset demo chính,
-                                                                                     được cấu hình trong
-                                                                                     pipeline hiện tại
-
-  `obsei_pizza_dataset/obsei_pizza_original_800.csv`                             800 Dataset tổng hợp ban
-                                                                                     đầu
-
-  `obsei_pizza_dataset/obsei_pizza_augmented_980.csv`                            980 Dataset tổng hợp mở
-                                                                                     rộng
-
-  `obsei_pizza_dataset/obsei_eval_reference_180.csv`                             180 Dataset tham chiếu
-                                                                                     phục vụ đánh giá
-  --------------------------------------------------------------------------------------------------------
+| File | Số dòng dữ liệu | Mục đích |
+|---|---:|---|
+| `obsei_pizza_demo_50.csv` | 50 | Dataset demo chính, được cấu hình trong pipeline hiện tại |
+| `obsei_pizza_dataset/obsei_pizza_original_800.csv` | 800 | Dataset tổng hợp ban đầu |
+| `obsei_pizza_dataset/obsei_pizza_augmented_980.csv` | 980 | Dataset tổng hợp mở rộng |
+| `obsei_pizza_dataset/obsei_eval_reference_180.csv` | 180 | Dataset tham chiếu phục vụ đánh giá |
 
 Các cột của dataset 50 được ánh xạ trong `obsei.yaml`. Với các dataset
 khác, hãy kiểm tra header trước khi cấu hình source; không giả định tất
@@ -85,20 +75,20 @@ cả CSV có cùng schema.
 
 File `obsei.yaml` là cấu hình chạy chính. Các thiết lập quan trọng:
 
-  Hạng mục                   Giá trị hiện tại
-  -------------------------- ---------------------------------------------
-  DuckDB                     `obsei_pizza_demo_50_tuned.duckdb`
-  Pipeline                   `feedback`
-  CSV source                 `pizza_feedback`
-  CSV path                   `obsei_pizza_demo_50.csv`
-  Enricher                   `classify`
-  Model                      `MoritzLaurer/bge-m3-zeroshot-v2.0` (local)
-  Classification threshold   `0.4`
-  Theme embedder             `auto`
-  Theme similarity           `0.50`
-  Duplicate similarity       `0.9`
-  k-anonymity                `2`
-  Parquet output             `exports_demo_50_tuned/`
+| Hạng mục | Giá trị hiện tại |
+|---|---|
+| DuckDB | `obsei_pizza_demo_50_tuned.duckdb` |
+| Pipeline | `feedback` |
+| CSV source | `pizza_feedback` |
+| CSV path | `obsei_pizza_demo_50.csv` |
+| Enricher | `classify` |
+| Model | `MoritzLaurer/bge-m3-zeroshot-v2.0` (local) |
+| Classification threshold | `0.4` |
+| Theme embedder | `auto` |
+| Theme similarity | `0.50` |
+| Duplicate similarity | `0.9` |
+| k-anonymity | `2` |
+| Parquet output | `exports_demo_50_tuned/` |
 
 Các Intent được cấu hình:
 
@@ -270,26 +260,26 @@ Một lần truy vấn Obsei MCP trước đây ghi nhận:
 
 ### Sentiment
 
-  Sentiment     Số phản hồi
-  ----------- -------------
-  Neutral                31
-  Positive               11
-  Negative                7
-  Mixed                   1
-  **Tổng**           **50**
+| Sentiment | Số phản hồi |
+|---|---:|
+| Neutral | 31 |
+| Positive | 11 |
+| Negative | 7 |
+| Mixed | 1 |
+| **Tổng** | **50** |
 
 ### Intent
 
-  Intent                  Số phản hồi
-  --------------------- -------------
-  `other`                          14
-  `booking`                        10
-  `takeaway_delivery`              10
-  `staff_service`                   5
-  `branch_experience`               4
-  `chatbot_support`                 4
-  `food_menu`                       3
-  **Tổng**                     **50**
+| Intent | Số phản hồi |
+|---|---:|
+| `other` | 14 |
+| `booking` | 10 |
+| `takeaway_delivery` | 10 |
+| `staff_service` | 5 |
+| `branch_experience` | 4 |
+| `chatbot_support` | 4 |
+| `food_menu` | 3 |
+| **Tổng** | **50** |
 
 ### Theme
 
