@@ -1,0 +1,181 @@
+﻿id,text,sentiment,intent
+FB_0001,"Việc gửi yêu cầu đặt bàn khá nhanh, mình nhận được hướng dẫn rõ từng thông tin cần cung cấp.",positive,booking
+FB_0002,"Phần thay đổi số lượng khách được tiếp nhận rõ ràng, mình không phải nhập lại từ đầu.",positive,booking
+FB_0003,Bạn chatbot nhắc lại ngày giờ và số người trước khi xác nhận nên mình dễ kiểm tra.,positive,booking
+FB_0004,"Quy trình hỏi thông tin đặt bàn khá gọn, mình không bị hỏi đi hỏi lại.",positive,booking
+FB_0005,"Nhân viên xác nhận lại yêu cầu đặt bàn cẩn thận, mình thấy yên tâm hơn.",positive,booking
+FB_0006,"Việc hỗ trợ đổi giờ diễn ra thuận tiện, thông tin cũ và mới được phân biệt rõ.",positive,booking
+FB_0007,"Thông tin về tình trạng booking được giải thích dễ hiểu, không gây nhầm lẫn.",positive,booking
+FB_0008,"Khâu ghi nhận yêu cầu bàn cho nhóm đông khá rõ ràng, mình biết cần bổ sung gì.",positive,booking
+FB_0009,Được hướng dẫn kiểm tra lại mã đặt bàn nên mình không lo bị tạo booking trùng.,positive,booking
+FB_0010,"Phần ghi chú dịp đặc biệt được tiếp nhận đầy đủ, trải nghiệm đặt bàn khá tốt.",positive,booking
+FB_0011,Chatbot phản hồi nhanh và hỏi đúng phần thông tin mình còn thiếu.,positive,chatbot_support
+FB_0012,"Bot hiểu được khi mình gửi thông tin thành nhiều tin nhắn, không bắt đầu lại.",positive,chatbot_support
+FB_0013,"Phần trả lời của chatbot ngắn gọn, dễ hiểu và bám đúng câu hỏi.",positive,chatbot_support
+FB_0014,Chatbot nhận ra mình đang hỏi hai việc và xác nhận thứ tự xử lý rất rõ.,positive,chatbot_support
+FB_0015,"Bot không tự khẳng định bàn còn trống khi chưa kiểm tra, cách trả lời khá đáng tin.",positive,chatbot_support
+FB_0016,"Chatbot hướng dẫn chuyển nhân viên khi yêu cầu vượt khả năng xử lý, mình thấy hợp lý.",positive,chatbot_support
+FB_0017,Việc nhắc lại nội dung trước khi xử lý giúp mình tránh gửi nhầm thông tin.,positive,chatbot_support
+FB_0018,Chatbot giữ được ngữ cảnh dù mình sửa lại giờ đến.,positive,chatbot_support
+FB_0019,Bot thông báo rõ khi chưa có dữ liệu xác nhận thay vì đoán câu trả lời.,positive,chatbot_support
+FB_0020,"Trải nghiệm nhắn tin với chatbot khá mượt, mình dễ theo dõi từng bước.",positive,chatbot_support
+FB_0021,Nhân viên tiếp nhận góp ý lịch sự và giải thích cách xử lý rất rõ.,positive,staff_service
+FB_0022,Bạn tư vấn kiên nhẫn trả lời các câu hỏi của gia đình mình.,positive,staff_service
+FB_0023,"Nhân viên chủ động xác nhận lại yêu cầu, mình cảm thấy được lắng nghe.",positive,staff_service
+FB_0024,"Thái độ phục vụ thân thiện, cách giải thích cũng rất dễ hiểu.",positive,staff_service
+FB_0025,Nhân viên hỗ trợ kiểm tra thông tin thay vì trả lời qua loa.,positive,staff_service
+FB_0026,Bạn nhân viên ghi nhận lưu ý của nhóm mình cẩn thận.,positive,staff_service
+FB_0027,"Phần bàn giao từ chatbot sang nhân viên khá liền mạch, mình không phải kể lại nhiều lần.",positive,staff_service
+FB_0028,Nhân viên xử lý thắc mắc bình tĩnh và tôn trọng khách.,positive,staff_service
+FB_0029,"Bạn hỗ trợ chỉ rõ thông tin nào đã xác nhận, thông tin nào cần kiểm tra thêm.",positive,staff_service
+FB_0030,Mình hài lòng vì nhân viên không hứa trước khi kiểm tra chính sách.,positive,staff_service
+FB_0031,"Món ăn được giới thiệu rõ thành phần, mình dễ chọn món phù hợp.",positive,food_menu
+FB_0032,"Phần tư vấn menu có thông tin cụ thể, không làm mình hiểu nhầm về nguyên liệu.",positive,food_menu
+FB_0033,Nhân viên ghi nhận lưu ý dị ứng và hướng dẫn xác minh với bếp rất cẩn thận.,positive,food_menu
+FB_0034,"Trải nghiệm món ăn ổn, hương vị đúng với mô tả mình được tư vấn.",positive,food_menu
+FB_0035,Menu có nhiều lựa chọn để cả nhóm dễ thống nhất.,positive,food_menu
+FB_0036,"Thông tin món chay được giải thích rõ ràng, mình dễ cân nhắc.",positive,food_menu
+FB_0037,Phần tư vấn khẩu phần giúp gia đình mình chọn món phù hợp.,positive,food_menu
+FB_0038,"Nhân viên không khẳng định món an toàn khi chưa kiểm tra dị ứng, mình đánh giá cao sự cẩn trọng.",positive,food_menu
+FB_0039,Thông tin về món và thành phần được trình bày dễ theo dõi.,positive,food_menu
+FB_0040,Nhóm mình khá hài lòng với chất lượng món ăn trong lần trải nghiệm này.,positive,food_menu
+FB_0041,"Không gian chi nhánh thoải mái, cả nhóm có thể trò chuyện dễ dàng.",positive,branch_experience
+FB_0042,Nhân viên hướng dẫn lối vào rõ nên mình tìm nhà hàng không mất nhiều thời gian.,positive,branch_experience
+FB_0043,Vị trí nhà hàng thuận tiện cho lịch trình của gia đình mình.,positive,branch_experience
+FB_0044,"Không gian ngồi khá dễ chịu, phù hợp buổi gặp mặt cuối tuần.",positive,branch_experience
+FB_0045,Thông tin tiện ích tại chi nhánh được cung cấp rõ ràng.,positive,branch_experience
+FB_0046,Nhân viên hỗ trợ tìm khu vực ngồi phù hợp cho gia đình có trẻ nhỏ.,positive,branch_experience
+FB_0047,Không gian sạch sẽ và tạo cảm giác thoải mái trong bữa ăn.,positive,branch_experience
+FB_0048,"Việc hướng dẫn đường đi đến chi nhánh khá chính xác, dễ làm theo.",positive,branch_experience
+FB_0049,Nhà hàng có bố trí chỗ ngồi khiến nhóm mình cảm thấy thuận tiện.,positive,branch_experience
+FB_0050,Trải nghiệm tại chi nhánh nhìn chung dễ chịu và đáng nhớ.,positive,branch_experience
+FB_0051,Đơn mang về được hướng dẫn kiểm tra trạng thái rõ ràng.,positive,takeaway_delivery
+FB_0052,Thời gian chờ được thông báo cụ thể nên mình chủ động sắp xếp.,positive,takeaway_delivery
+FB_0053,Nhân viên giải thích quy trình nhận món mang đi rất dễ hiểu.,positive,takeaway_delivery
+FB_0054,"Phần xác nhận đơn được thực hiện cẩn thận, mình dễ đối chiếu.",positive,takeaway_delivery
+FB_0055,Nhóm mình nhận được hỗ trợ nhanh khi hỏi về tình trạng món.,positive,takeaway_delivery
+FB_0056,Thông tin liên hệ bộ phận phụ trách đơn mang về được cung cấp đầy đủ.,positive,takeaway_delivery
+FB_0057,"Nhân viên cập nhật khi có thay đổi thời gian, mình không phải hỏi nhiều lần.",positive,takeaway_delivery
+FB_0058,"Quy trình nhận món khá gọn, không mất thời gian tìm người hỗ trợ.",positive,takeaway_delivery
+FB_0059,"Đơn mang về được đóng gói cẩn thận, trải nghiệm tốt.",positive,takeaway_delivery
+FB_0060,Việc giải thích thời gian chờ minh bạch giúp mình yên tâm.,positive,takeaway_delivery
+FB_0061,Mình gửi yêu cầu đặt bàn rồi nhưng chưa rõ đã được ghi nhận hay chưa.,negative,booking
+FB_0062,"Thông tin đổi giờ bị hỏi lại nhiều lần, mình khá mất thời gian.",negative,booking
+FB_0063,Mình chưa nhận được thông tin xác nhận nên không biết có nên đến đúng giờ không.,negative,booking
+FB_0064,"Phần cập nhật số lượng khách chưa rõ ràng, mình sợ booking bị sai.",negative,booking
+FB_0065,Mình đã cung cấp mã đặt bàn nhưng vẫn phải giải thích lại từ đầu.,negative,booking
+FB_0066,Việc hủy yêu cầu chưa có thông báo kết quả khiến mình khó chủ động.,negative,booking
+FB_0067,Mình không biết thông tin nào đã được lưu sau khi chỉnh sửa booking.,negative,booking
+FB_0068,Quy trình đặt bàn cho nhóm đông hơi rối và thiếu hướng dẫn cụ thể.,negative,booking
+FB_0069,Mình phải nhắn nhiều lần mới biết yêu cầu đang ở trạng thái nào.,negative,booking
+FB_0070,Thông tin ngày giờ trong phần tóm tắt chưa khớp với nội dung mình gửi.,negative,booking
+FB_0071,Chatbot cứ lặp lại cùng một câu hỏi dù mình đã trả lời rồi.,negative,chatbot_support
+FB_0072,Bot không hiểu khi mình gửi thông tin thành nhiều tin nhắn liên tiếp.,negative,chatbot_support
+FB_0073,Câu trả lời của chatbot chưa đúng trọng tâm nên mình vẫn chưa giải quyết được việc.,negative,chatbot_support
+FB_0074,Mình hỏi hai nội dung nhưng bot chỉ phản hồi một phần và bỏ qua phần còn lại.,negative,chatbot_support
+FB_0075,"Chatbot đưa ra câu trả lời chung chung, không nói rõ bước tiếp theo.",negative,chatbot_support
+FB_0076,Bot yêu cầu mình nhập lại thông tin dù nội dung đã có trong cuộc trò chuyện.,negative,chatbot_support
+FB_0077,Chatbot không nhận ra mình đang sửa yêu cầu cũ nên dễ gây nhầm lẫn.,negative,chatbot_support
+FB_0078,Mình không biết lúc nào chatbot đã chuyển yêu cầu sang nhân viên.,negative,chatbot_support
+FB_0079,Phản hồi tự động xuất hiện nhiều lần làm cuộc trò chuyện khó theo dõi.,negative,chatbot_support
+FB_0080,Chatbot chưa giải thích rõ khi không thể xử lý yêu cầu của mình.,negative,chatbot_support
+FB_0081,Mình phải kể lại toàn bộ vấn đề khi được chuyển từ chatbot sang nhân viên.,negative,staff_service
+FB_0082,Câu trả lời của nhân viên chưa giải thích rõ cách xử lý tiếp theo.,negative,staff_service
+FB_0083,Mình chờ phản hồi khá lâu nhưng chưa biết ai đang phụ trách yêu cầu.,negative,staff_service
+FB_0084,Nhân viên chưa xác nhận lại thông tin nên mình vẫn lo có sai sót.,negative,staff_service
+FB_0085,Cách trao đổi khiến mình cảm thấy góp ý chưa được lắng nghe đầy đủ.,negative,staff_service
+FB_0086,Mình nhận được hướng dẫn khác nhau ở hai lần hỏi về cùng một vấn đề.,negative,staff_service
+FB_0087,Nhân viên chưa nói rõ phần nào đã kiểm tra và phần nào còn chờ xác minh.,negative,staff_service
+FB_0088,"Việc chuyển bộ phận hỗ trợ chưa liền mạch, mình phải nhắc lại nhiều lần.",negative,staff_service
+FB_0089,Mình chưa hài lòng vì câu hỏi của mình bị trả lời khá qua loa.,negative,staff_service
+FB_0090,Thông tin phản hồi chưa đủ cụ thể để mình biết phải làm gì tiếp.,negative,staff_service
+FB_0091,Thông tin thành phần món chưa rõ nên mình khó quyết định có nên gọi hay không.,negative,food_menu
+FB_0092,Mình hỏi về dị ứng nhưng câu trả lời chưa đủ cụ thể để yên tâm.,negative,food_menu
+FB_0093,Mô tả món ăn chưa giống với điều mình hình dung sau khi nhận món.,negative,food_menu
+FB_0094,Menu chưa giải thích rõ lựa chọn phù hợp cho người cần tránh một nguyên liệu.,negative,food_menu
+FB_0095,Mình phải hỏi lại nhiều lần mới biết thông tin nào đã được xác minh.,negative,food_menu
+FB_0096,Phần tư vấn món chưa đề cập rõ khẩu phần nên nhóm mình khó chọn.,negative,food_menu
+FB_0097,Mình chưa hài lòng vì thông tin giá và thành phần chưa được trình bày cùng nhau.,negative,food_menu
+FB_0098,"Câu trả lời về món chay còn mơ hồ, mình cần nhân viên kiểm tra lại.",negative,food_menu
+FB_0099,Món được phục vụ chưa đáp ứng kỳ vọng của nhóm mình trong lần này.,negative,food_menu
+FB_0100,Thông tin về nguyên liệu chưa nhất quán giữa các lần tư vấn.,negative,food_menu
+FB_0101,Mình mất khá nhiều thời gian để tìm đúng lối vào chi nhánh.,negative,branch_experience
+FB_0102,Thông tin tiện ích tại chi nhánh chưa rõ nên mình khó chuẩn bị trước.,negative,branch_experience
+FB_0103,"Không gian lúc mình ghé khá ồn, nhóm mình khó trò chuyện.",negative,branch_experience
+FB_0104,Mình chưa tìm được khu vực ngồi phù hợp cho gia đình có trẻ nhỏ.,negative,branch_experience
+FB_0105,"Hướng dẫn đường đi chưa đủ cụ thể, mình phải tự tìm thêm.",negative,branch_experience
+FB_0106,Khu vực chờ khá đông nhưng mình chưa biết cần đợi ở đâu.,negative,branch_experience
+FB_0107,Thông tin chỗ để xe chưa rõ khiến việc đến nhà hàng bất tiện.,negative,branch_experience
+FB_0108,Mình không chắc địa chỉ được gửi có đúng chi nhánh mình đã chọn không.,negative,branch_experience
+FB_0109,Không gian ngồi hôm đó chưa thoải mái như mong đợi.,negative,branch_experience
+FB_0110,Việc hỏi thông tin tiện ích của chi nhánh mất nhiều lượt trao đổi.,negative,branch_experience
+FB_0111,Mình chưa nhận được cập nhật rõ ràng về thời gian món mang về hoàn tất.,negative,takeaway_delivery
+FB_0112,Thời gian chờ lâu hơn dự kiến nhưng không có thông báo trước.,negative,takeaway_delivery
+FB_0113,Mình hỏi trạng thái đơn nhiều lần mà vẫn chưa có câu trả lời cụ thể.,negative,takeaway_delivery
+FB_0114,Thông tin nơi nhận món chưa rõ nên mình phải hỏi lại.,negative,takeaway_delivery
+FB_0115,Đơn mang về bị thiếu thông tin đối chiếu khiến mình mất thời gian kiểm tra.,negative,takeaway_delivery
+FB_0116,Mình chưa biết liên hệ bộ phận nào khi đơn có vấn đề.,negative,takeaway_delivery
+FB_0117,Việc cập nhật thời gian nhận món chưa nhất quán.,negative,takeaway_delivery
+FB_0118,Mình phải chờ lâu tại điểm nhận mà chưa được hướng dẫn.,negative,takeaway_delivery
+FB_0119,"Phần đóng gói chưa chắc chắn, món bị xô lệch khi mình mang về.",negative,takeaway_delivery
+FB_0120,Trạng thái đơn chưa được giải thích rõ nên mình khá sốt ruột.,negative,takeaway_delivery
+FB_0121,Mình muốn biết cần cung cấp những thông tin nào để đặt bàn cho nhóm sáu người.,neutral,booking
+FB_0122,Nếu đổi giờ đến sau khi gửi yêu cầu thì mình cần thao tác như thế nào?,neutral,booking
+FB_0123,Cho mình hỏi có thể kiểm tra trạng thái booking bằng mã đặt bàn không.,neutral,booking
+FB_0124,Mình cần hướng dẫn hủy một yêu cầu đặt bàn đã gửi trước đó.,neutral,booking
+FB_0125,Nếu số lượng khách thay đổi thì có cần tạo yêu cầu mới không?,neutral,booking
+FB_0126,Mình muốn biết thời gian tối đa có thể đặt bàn trước là bao lâu.,neutral,booking
+FB_0127,Có thể ghi chú dịp sinh nhật trong yêu cầu đặt bàn không?,neutral,booking
+FB_0128,Mình muốn kiểm tra lại chi nhánh và giờ đến trước khi xác nhận.,neutral,booking
+FB_0129,Nếu chưa có mã booking thì mình tra cứu yêu cầu bằng cách nào?,neutral,booking
+FB_0130,Cho mình hỏi cần liên hệ ai nếu muốn sửa tên người đến nhận bàn.,neutral,booking
+FB_0131,Chatbot có thể tiếp nhận nhiều tin nhắn liên tiếp trong cùng một yêu cầu không?,neutral,chatbot_support
+FB_0132,Mình muốn biết cách yêu cầu chatbot chuyển cuộc trò chuyện sang nhân viên.,neutral,chatbot_support
+FB_0133,Nếu bot chưa hiểu câu hỏi thì mình nên diễn đạt lại như thế nào?,neutral,chatbot_support
+FB_0134,Chatbot có thể tóm tắt thông tin mình đã gửi trước khi xác nhận không?,neutral,chatbot_support
+FB_0135,Mình muốn biết chatbot có lưu ngữ cảnh khi mình bổ sung thông tin sau đó không.,neutral,chatbot_support
+FB_0136,Có cách nào xem lại nội dung yêu cầu đã gửi cho chatbot không?,neutral,chatbot_support
+FB_0137,Mình đang thử gửi nhiều ý trong một tin nhắn để xem bot xử lý ra sao.,neutral,chatbot_support
+FB_0138,Chatbot có thể phân biệt câu hỏi mới với phần chỉnh sửa yêu cầu cũ không?,neutral,chatbot_support
+FB_0139,Mình muốn biết khi nào cần chờ nhân viên thay vì tiếp tục nhắn bot.,neutral,chatbot_support
+FB_0140,Nếu bot không có dữ liệu thì có thể hướng dẫn kênh liên hệ phù hợp không?,neutral,chatbot_support
+FB_0141,Mình muốn biết bộ phận nào tiếp nhận góp ý về trải nghiệm tại nhà hàng.,neutral,staff_service
+FB_0142,Nếu cần nhân viên kiểm tra lại thông tin thì thời gian phản hồi dự kiến là bao lâu?,neutral,staff_service
+FB_0143,Cho mình hỏi có thể yêu cầu nhân viên gọi lại để trao đổi không.,neutral,staff_service
+FB_0144,Mình cần biết cách bổ sung thông tin vào yêu cầu đã chuyển cho bộ phận hỗ trợ.,neutral,staff_service
+FB_0145,Nếu có nhiều vấn đề trong một lần liên hệ thì có thể ghi nhận chung không?,neutral,staff_service
+FB_0146,Mình muốn hỏi quy trình tiếp nhận phản ánh của khách hàng.,neutral,staff_service
+FB_0147,Nhân viên có thể xem lại nội dung trao đổi trước đó với chatbot không?,neutral,staff_service
+FB_0148,Mình cần biết kênh liên hệ phù hợp cho câu hỏi chưa được giải đáp.,neutral,staff_service
+FB_0149,Cho mình hỏi có thể nhận mã theo dõi yêu cầu hỗ trợ không.,neutral,staff_service
+FB_0150,Mình muốn cập nhật thêm chi tiết sau khi đã gửi phản hồi.,neutral,staff_service
+FB_0151,Mình muốn xem danh sách món và thành phần trước khi chọn món.,neutral,food_menu
+FB_0152,Cho mình hỏi menu có thông tin về các nguyên liệu chính không.,neutral,food_menu
+FB_0153,Nếu có dị ứng thực phẩm thì mình nên báo trước cho bộ phận nào?,neutral,food_menu
+FB_0154,Mình cần biết có thể hỏi thông tin món chay qua kênh trực tuyến không.,neutral,food_menu
+FB_0155,Cho mình hỏi khẩu phần của món có được cung cấp trong menu không.,neutral,food_menu
+FB_0156,Mình muốn tìm hiểu các lựa chọn pizza trước khi đặt bàn.,neutral,food_menu
+FB_0157,Nếu thành phần món chưa được xác nhận thì mình có thể hỏi ai?,neutral,food_menu
+FB_0158,Mình cần thông tin về các lựa chọn phù hợp cho trẻ nhỏ.,neutral,food_menu
+FB_0159,Cho mình hỏi menu có cập nhật theo từng chi nhánh không.,neutral,food_menu
+FB_0160,Mình muốn biết cách kiểm tra thông tin nguyên liệu trước khi gọi món.,neutral,food_menu
+FB_0161,Chi nhánh nào có khu vực ngồi phù hợp cho nhóm đông người?,neutral,branch_experience
+FB_0162,Mình muốn biết địa chỉ và lối vào của chi nhánh gần khu trung tâm.,neutral,branch_experience
+FB_0163,Cho mình hỏi chi nhánh có hỗ trợ ghế em bé không.,neutral,branch_experience
+FB_0164,Mình cần tìm thông tin về chỗ để xe tại chi nhánh dự định ghé.,neutral,branch_experience
+FB_0165,Không gian của chi nhánh có khu vực riêng cho nhóm gia đình không?,neutral,branch_experience
+FB_0166,Mình muốn biết cách đi từ trung tâm thương mại đến nhà hàng.,neutral,branch_experience
+FB_0167,Cho mình hỏi giờ hoạt động của chi nhánh vào ngày cuối tuần.,neutral,branch_experience
+FB_0168,Mình cần so sánh vị trí của hai chi nhánh trước khi chọn nơi đến.,neutral,branch_experience
+FB_0169,Chi nhánh có thể ghi nhận yêu cầu về vị trí bàn trước không?,neutral,branch_experience
+FB_0170,Mình muốn biết có tiện ích nào dành cho khách đi cùng trẻ nhỏ.,neutral,branch_experience
+FB_0171,Mình muốn hỏi nhà hàng có hỗ trợ đặt món mang về không.,neutral,takeaway_delivery
+FB_0172,Cho mình biết cách kiểm tra trạng thái đơn mang đi sau khi gửi yêu cầu.,neutral,takeaway_delivery
+FB_0173,Nếu cần thay đổi thời gian nhận món thì mình liên hệ qua đâu?,neutral,takeaway_delivery
+FB_0174,Mình muốn biết khu vực nào đang được hỗ trợ giao món.,neutral,takeaway_delivery
+FB_0175,Có thể cung cấp thông tin liên hệ của bộ phận phụ trách đơn mang về không.,neutral,takeaway_delivery
+FB_0176,Mình cần biết thời gian chuẩn bị món mang đi dự kiến.,neutral,takeaway_delivery
+FB_0177,Nếu đơn có nhiều món thì mình có thể kiểm tra từng món không?,neutral,takeaway_delivery
+FB_0178,Cho mình hỏi quy trình nhận món tại nhà hàng gồm những bước nào?,neutral,takeaway_delivery
+FB_0179,Mình muốn biết cần cung cấp mã gì khi đến nhận đơn.,neutral,takeaway_delivery
+FB_0180,Nếu chưa rõ phạm vi giao hàng thì mình có thể kiểm tra ở đâu?,neutral,takeaway_delivery

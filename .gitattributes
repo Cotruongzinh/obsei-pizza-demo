@@ -1,0 +1,7 @@
+* text=auto
+*.csv text
+*.yaml text
+*.yml text
+*.md text
+*.txt text
+.gitignore text

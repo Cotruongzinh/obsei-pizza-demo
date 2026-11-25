@@ -1,0 +1,51 @@
+﻿id,text,language,date,intent,sentiment
+P4P_DEMO_001,"Mình muốn đặt bàn tối thứ sáu cho 4 người ở chi nhánh Thảo Điền, khoảng 19 giờ. Còn chỗ không ạ?",vi,2026-11-01T11:20:00+07:00,booking,neutral
+P4P_DEMO_002,Cho mình đổi giờ đặt bàn từ 18:30 sang 19:30 hôm nay nhé. Số khách vẫn giữ nguyên là 3 người.,vi,2026-11-01T18:45:00+07:00,booking,neutral
+P4P_DEMO_003,Mình đã đặt bàn cho 6 người nhưng giờ có thêm 2 bạn đi cùng. Nhà hàng hỗ trợ tăng lên 8 người được không?,vi,2026-11-02T12:10:00+07:00,booking,neutral
+P4P_DEMO_004,"Mình gọi mấy lần để xác nhận bàn tối nay mà chưa kết nối được. Nhờ nhà hàng kiểm tra giúp, mình sợ đến nơi không có bàn.",vi,2026-11-02T19:30:00+07:00,booking,negative
+P4P_DEMO_005,Cảm ơn bạn đã hỗ trợ đổi chi nhánh đặt bàn rất nhanh. Mình nhận được xác nhận rồi nhé!,vi,2026-11-03T20:05:00+07:00,booking,positive
+P4P_DEMO_006,Mình muốn hủy đặt bàn lúc 20 giờ ngày mai vì lịch cá nhân thay đổi. Nhờ xác nhận giúp mình.,vi,2026-11-04T17:15:00+07:00,booking,neutral
+P4P_DEMO_007,Ứng dụng báo đặt bàn thành công nhưng mình không nhận được mã xác nhận. Như vậy bàn đã được giữ chưa ạ?,vi,2026-11-05T19:00:00+07:00,booking,negative
+P4P_DEMO_008,Nhà hàng có hỗ trợ ghi chú bàn gần cửa sổ cho dịp sinh nhật không? Mình dự định đặt bàn cho 5 người.,vi,2026-11-06T18:20:00+07:00,booking,neutral
+P4P_DEMO_009,Chatbot cứ hỏi lại số lượng khách dù mình đã nhập ở tin nhắn trước. Mình phải thao tác lại nhiều lần khá bất tiện.,vi,2026-11-07T12:30:00+07:00,chatbot_support,negative
+P4P_DEMO_010,Mình không tìm thấy nút xem lại lịch sử đặt bàn trong khung chat. Bạn hướng dẫn mình với.,vi,2026-11-08T19:15:00+07:00,chatbot_support,neutral
+P4P_DEMO_011,Bot trả lời rất nhanh và hướng dẫn mình tìm chi nhánh gần nhất dễ hiểu. Cảm ơn đội ngũ nhé!,vi,2026-11-09T20:10:00+07:00,chatbot_support,positive
+P4P_DEMO_012,Chatbot hiểu nhầm yêu cầu đổi giờ thành hủy bàn. Mình đã thử diễn đạt lại nhưng kết quả vẫn sai.,vi,2026-11-10T11:45:00+07:00,chatbot_support,negative
+P4P_DEMO_013,Cho mình hỏi chatbot có thể chuyển cuộc trò chuyện sang nhân viên khi câu hỏi nằm ngoài phạm vi hỗ trợ không?,vi,2026-11-11T18:05:00+07:00,chatbot_support,neutral
+P4P_DEMO_014,"Sau khi cập nhật ứng dụng, cửa sổ chat bị trắng và không gửi được tin nhắn. Mong đội kỹ thuật kiểm tra.",vi,2026-11-12T19:40:00+07:00,chatbot_support,negative
+P4P_DEMO_015,"Phần hướng dẫn của chatbot khá rõ ràng, mình tự tìm được thông tin giờ mở cửa mà không cần gọi điện.",vi,2026-11-13T12:00:00+07:00,chatbot_support,positive
+P4P_DEMO_016,"Bạn nhân viên tư vấn món rất nhiệt tình, còn hỏi kỹ khẩu vị của cả nhóm trước khi gợi ý. Trải nghiệm rất tốt.",vi,2026-11-14T18:30:00+07:00,staff_service,positive
+P4P_DEMO_017,Mình đợi khá lâu mới có nhân viên đến nhận order dù nhà hàng lúc đó không quá đông.,vi,2026-11-15T20:15:00+07:00,staff_service,negative
+P4P_DEMO_018,Nhân viên hỗ trợ đổi món cho bé rất chu đáo. Gia đình mình cảm thấy được quan tâm.,vi,2026-11-16T11:30:00+07:00,staff_service,positive
+P4P_DEMO_019,Món lên thiếu một phần nhưng mình phải nhắc hai lần nhân viên mới kiểm tra lại. Mong nhà hàng cải thiện khâu phục vụ.,vi,2026-11-17T19:10:00+07:00,staff_service,negative
+P4P_DEMO_020,Cho mình hỏi nếu cần hỗ trợ trong lúc dùng bữa thì có thể báo nhân viên qua nút gọi tại bàn không?,vi,2026-11-18T12:20:00+07:00,staff_service,neutral
+P4P_DEMO_021,Bạn phục vụ giải thích rõ thời gian chuẩn bị món và chủ động báo khi bếp đông. Mình đánh giá cao sự chuyên nghiệp.,vi,2026-11-19T18:50:00+07:00,staff_service,positive
+P4P_DEMO_022,"Thái độ tiếp nhận góp ý của nhân viên hôm nay chưa tốt, mình cảm thấy ý kiến của khách chưa được lắng nghe.",vi,2026-11-20T20:25:00+07:00,staff_service,negative
+P4P_DEMO_023,Pizza phô mai có những loại phô mai nào vậy ạ? Mình muốn biết thành phần trước khi gọi món.,vi,2026-11-21T11:10:00+07:00,food_menu,neutral
+P4P_DEMO_024,"Món pasta hôm nay rất ngon, sốt vừa miệng và phần ăn đầy đặn. Chắc chắn mình sẽ gọi lại.",vi,2026-11-22T19:35:00+07:00,food_menu,positive
+P4P_DEMO_025,"Mình bị dị ứng hải sản, nhà hàng có thể tư vấn món nào không có thành phần từ tôm, cua hoặc mực không?",vi,2026-11-23T12:40:00+07:00,food_menu,neutral
+P4P_DEMO_026,Pizza mình nhận được phần đế hơi cháy và phô mai ít hơn lần trước. Chất lượng món lần này làm mình thất vọng.,vi,2026-11-24T18:15:00+07:00,food_menu,negative
+P4P_DEMO_027,Menu có món chay hoàn toàn không sử dụng trứng và sữa không? Nhờ bạn kiểm tra thành phần giúp.,vi,2026-11-01T13:05:00+07:00,food_menu,neutral
+P4P_DEMO_028,"Món salad rau củ tươi, nước sốt ngon và trình bày đẹp. Bữa ăn hôm nay rất hài lòng.",vi,2026-11-03T18:55:00+07:00,food_menu,positive
+P4P_DEMO_029,Mình muốn xem menu đồ uống và giá hiện tại trước khi đến nhà hàng.,vi,2026-11-05T12:25:00+07:00,food_menu,neutral
+P4P_DEMO_030,"Món mì bị nguội khi mang ra bàn, phần sốt cũng nhạt hơn mong đợi. Mong bếp kiểm tra lại quy trình.",vi,2026-11-07T20:35:00+07:00,food_menu,negative
+P4P_DEMO_031,"Không gian chi nhánh Lê Đại Hành thoáng, bàn ghế sạch sẽ và ánh sáng dễ chịu. Mình có buổi tối rất vui.",vi,2026-11-09T13:15:00+07:00,branch_experience,positive
+P4P_DEMO_032,"Cho mình xin hướng dẫn đường vào chi nhánh Bến Thành, có lối vào nào thuận tiện nếu đi bộ từ khu trung tâm không?",vi,2026-11-11T19:25:00+07:00,branch_experience,neutral
+P4P_DEMO_033,Khu vực ngồi gần cửa ra vào hơi ồn và có nhiều người qua lại. Mong lần sau được sắp xếp chỗ yên tĩnh hơn.,vi,2026-11-13T11:55:00+07:00,branch_experience,negative
+P4P_DEMO_034,Chi nhánh Thảo Điền có chỗ đậu xe máy cho khách không và bãi xe đóng cửa lúc mấy giờ?,vi,2026-11-15T18:40:00+07:00,branch_experience,neutral
+P4P_DEMO_035,"Nhà hàng sạch sẽ, nhà vệ sinh được chăm sóc tốt và khu vực chờ khá thoải mái. Mình rất hài lòng.",vi,2026-11-17T12:35:00+07:00,branch_experience,positive
+P4P_DEMO_036,"Mình đến đúng địa chỉ trên ứng dụng nhưng không thấy biển hiệu rõ ràng, mất khá nhiều thời gian để tìm lối vào.",vi,2026-11-19T20:00:00+07:00,branch_experience,negative
+P4P_DEMO_037,Chi nhánh có khu vực phù hợp cho gia đình đi cùng trẻ nhỏ không? Mình muốn chọn chỗ ngồi thuận tiện cho bé.,vi,2026-11-21T13:25:00+07:00,branch_experience,neutral
+P4P_DEMO_038,Mình muốn đặt pizza mang về và đến lấy lúc 18:45. Có thể đặt trước qua chatbot không?,vi,2026-11-23T19:50:00+07:00,takeaway_delivery,neutral
+P4P_DEMO_039,"Đơn giao đến trễ hơn thời gian dự kiến gần 40 phút, pizza cũng không còn nóng. Trải nghiệm lần này chưa tốt.",vi,2026-11-02T13:40:00+07:00,takeaway_delivery,negative
+P4P_DEMO_040,"Đóng gói rất cẩn thận, pizza vẫn giữ được hình dạng và còn ấm khi nhận. Cảm ơn nhà hàng!",vi,2026-11-04T19:05:00+07:00,takeaway_delivery,positive
+P4P_DEMO_041,Mình muốn kiểm tra trạng thái đơn mang đi nhưng ứng dụng vẫn hiển thị đang chuẩn bị từ khá lâu.,vi,2026-11-06T12:15:00+07:00,takeaway_delivery,negative
+P4P_DEMO_042,Nếu đặt mang về thì mình có thể thanh toán trước trên ứng dụng hay cần thanh toán tại quầy nhận món?,vi,2026-11-08T20:20:00+07:00,takeaway_delivery,neutral
+P4P_DEMO_043,Nhân viên giao hàng bàn giao đúng món và đúng số lượng. Mọi thứ được chuẩn bị gọn gàng.,vi,2026-11-10T13:50:00+07:00,takeaway_delivery,positive
+P4P_DEMO_044,Mình nhận thiếu một phần nước trong đơn giao hàng. Nhờ nhà hàng hướng dẫn cách phản ánh và bổ sung món.,vi,2026-11-12T18:25:00+07:00,takeaway_delivery,negative
+P4P_DEMO_045,Nhà hàng có chương trình ưu đãi dành cho khách hàng thân thiết trong tháng này không?,vi,2026-11-14T12:45:00+07:00,other,neutral
+P4P_DEMO_046,"Mình muốn xin hóa đơn điện tử cho lần dùng bữa hôm qua, cần cung cấp những thông tin nào?",vi,2026-11-16T19:55:00+07:00,other,neutral
+P4P_DEMO_047,Cảm ơn Pizza 4P's đã tổ chức một buổi tối đáng nhớ cho nhóm mình. Mọi người đều rất vui.,vi,2026-11-18T13:10:00+07:00,other,positive
+P4P_DEMO_048,Mình thấy thông tin khuyến mãi trên bài đăng và tại nhà hàng không giống nhau. Mong bên mình làm rõ điều kiện áp dụng.,vi,2026-11-20T18:35:00+07:00,other,negative
+P4P_DEMO_049,Nhà hàng có nhận tổ chức tiệc nhóm hoặc sự kiện nhỏ vào cuối tuần không? Mình muốn tìm hiểu quy trình.,vi,2026-11-22T12:55:00+07:00,other,neutral
+P4P_DEMO_050,"Mình muốn góp ý về chương trình thành viên, hiện tại quyền lợi tích điểm chưa được giải thích rõ ràng.",vi,2026-11-24T20:30:00+07:00,other,negative
